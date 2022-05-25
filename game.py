@@ -49,7 +49,7 @@ for i in range(0, 6):
     guess = input()
     present = presence(guess, data_into_list)
     while(present):
-        guess = input()
+        guess = input("Enter your Guess")
         present = presence(guess, data_into_list)
     counting = counting+1
     if(word == guess):
