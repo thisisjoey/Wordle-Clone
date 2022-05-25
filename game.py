@@ -40,7 +40,7 @@ print("2. '+' Sign means word is present but incorrectly placed")
 print("3. '*' Sign means word is present and correctly placed")
 print("4. If word correctly guessed you will win the game")
 print("5. You only have 6 guesses to win this game")
-print(word)
+
 # For global declaration
 guess = "temporarystring"
 counting = 0
@@ -60,3 +60,4 @@ for i in range(0, 6):
         func(word, guess)
 if(won == 0):
     print("OOps You Lost Please try again")
+    print(word)
