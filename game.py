@@ -60,4 +60,4 @@ for i in range(0, 6):
         func(word, guess)
 if(won == 0):
     print("OOps You Lost Please try again")
-    print(word)
+    print("The word was ",word)
